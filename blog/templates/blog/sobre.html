@@ -1,0 +1,31 @@
+{% load static %}
+
+{% include 'blog/components/head.html'  %}
+
+{% include 'blog/components/header.html'  %}
+
+<div class="container-xxl py-5 bg-dark hero-header mb-5">
+    <div class="container my-5 py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-3 text-white animated slideInLeft">Sobre Nós</h1>
+                <p class="text-white animated slideInLeft mb-4 pb-2">
+                    Venha fazer parte de uma equipe campeã!
+                </p>
+                <!--<a href="#reuniao" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Agendar</a>-->
+            </div>
+            <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                <img class="img-fluid" src="{% static 'img/hero-ed1.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Navbar & Hero End -->
+
+
+<!-- Conteúdo -->
+<h1>Sobre...</h1>
+
+
+{% include 'blog/components/footer.html'  %}
